@@ -14,7 +14,14 @@ public class MiniHomeworkGitHub {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World");
+
+        // I will print even numbers from 1 to 50.
+        System.out.println("See below even numbers from 1 to 50: ");
+        
+        for (int num = 1; num <= 50; num++) {
+            if (num % 2 == 0) {
+                System.out.println(num);
+            }
+        }
     }
-    
 }
