@@ -14,7 +14,15 @@ public class MiniHomeworkGitHub {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        // I will print even numbers from 1 to 100.
+        System.out.println("See below even numbers from 1 to 100: ");
+        
+        for (int num = 1; num <= 100; num++) {
+            if (num % 2 == 0) {
+                System.out.println(num);
+            }
+        }
     }
     
 }
