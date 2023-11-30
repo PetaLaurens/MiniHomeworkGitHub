@@ -15,10 +15,10 @@ public class MiniHomeworkGitHub {
      */
     public static void main(String[] args) {
         
-        // I will print odd numbers from 1 to 100.
-        System.out.println("See below odd numbers from 1 to 100: ");
+        // I will print odd numbers from 1 to 50.
+        System.out.println("See below odd numbers from 1 to 50: ");
         
-        for (int num = 1; num <= 100; num++) {
+        for (int num = 1; num <= 50; num++) {
             if (num % 2 != 0) {
                 System.out.println(num);
             }
