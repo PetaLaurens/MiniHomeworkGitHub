@@ -17,11 +17,21 @@ public class MiniHomeworkGitHub {
 
         // I will print even numbers from 1 to 50.
         System.out.println("See below even numbers from 1 to 50: ");
-        
-        for (int num = 1; num <= 50; num++) {
-            if (num % 2 == 0) {
-                System.out.println(num);
+
+        for (int eNum = 1; eNum <= 50; eNum++) {
+            if (eNum % 2 == 0) {
+                System.out.println(eNum);
+            }
+        }
+
+        // I will print odd numbers from 1 to 50.
+        System.out.println("See below odd numbers from 1 to 50: ");
+
+        for (int oNum = 1; oNum <= 50; oNum++) {
+            if (oNum % 2 != 0) {
+                System.out.println(oNum);
             }
         }
     }
 }
+    
